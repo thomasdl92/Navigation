@@ -1,0 +1,37 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  margin-top: 33px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  background-color: #363636;
+
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 12px;
+}
+
+nav ul li a {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #363636;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  color: #fcfbff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #68b8ff;
+  background-color: #363636;
+}
