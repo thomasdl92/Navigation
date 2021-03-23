@@ -8,30 +8,53 @@ body {
 .container {
   width: 90%;
   max-width: 1100px;
-  background-color: #363636;
-
+  margin-top: 33px;
   margin: 0 auto;
 }
 
-nav ul {
+nav {
   display: flex;
-}
-
-nav ul li {
-  padding: 12px;
-}
-
-nav ul li a {
-  font-family: 'Bebas Neue', cursive;
+  align-items: center;
   background-color: #363636;
-  font-size: 14px;
-  display: block;
-  text-align: center;
-  color: #fcfbff;
-  text-decoration: none;
+  border: 2px solid #1f3a55;
 }
 
-nav ul li a:hover {
+nav .menu {
+  margin-right: auto;
+}
+
+nav .menu ul {
+  display: flex;
+  align-items: center;
+}
+
+nav .menu ul li a {
+  font-family: 'Bebas Neue', cursive;
+  color: #fcfbff;
+  background-color: #363636;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px;
+  font-size: 18px;
+  display: block;
+  margin-right: 1px;
+}
+
+nav .menu ul li a:hover {
   color: #68b8ff;
   background-color: #363636;
+}
+
+.menu ul li {
+  background-color: #242426;
+}
+
+nav .social ul {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav .social ul li a {
+  color: #59bcff;
 }
