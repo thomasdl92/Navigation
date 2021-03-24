@@ -3,6 +3,7 @@
 
 body {
   margin-top: 33px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .container {
@@ -29,7 +30,6 @@ nav .menu ul {
 }
 
 nav .menu ul li a {
-  font-family: 'Bebas Neue', cursive;
   color: #fcfbff;
   background-color: #363636;
   text-decoration: none;
@@ -38,6 +38,7 @@ nav .menu ul li a {
   font-size: 18px;
   display: block;
   margin-right: 1px;
+  transition: all 200ms;
 }
 
 nav .menu ul li a:hover {
@@ -52,9 +53,18 @@ nav .menu ul li a:hover {
 nav .social ul {
   display: flex;
   align-items: center;
-  font-size: 18px;
+}
+
+nav .social ul li {
+  margin-right: 12px;
 }
 
 nav .social ul li a {
   color: #59bcff;
+  font-size: 18px;
+  transition: all 200ms;
+}
+
+nav .social ul li a:hover {
+  color: #fff;
 }
